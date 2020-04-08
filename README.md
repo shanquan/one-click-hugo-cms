@@ -8,6 +8,8 @@ Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
+<https://determined-aryabhata-cc0c3b.netlify.com/>
+
 This will setup everything needed for running the CMS:
 
 * A new repository in your GitHub account with the code
