@@ -25,7 +25,14 @@ Now you're all set, and you can start editing content!
 
 Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
 
-Then start the development server with `yarn start` or `npm start`.
+Then start the development server with `yarn start` or `npm start`.According to Issue 1, you will have to copy `bin/hugo.exe`(for windows) to `node_modules/hugo-bin/vendor/hugo.exe` before the start command, or you may come across some ENONT error like me.
+
+Even if you start successfully, you may come across another Error as Issue 2 when you access `localhost:3000/admin`, Then you may need to build first as below:
+```
+npm run-script build
+# just serve dist as a normal static site
+http-server dist
+```
 
 ## Layouts
 
