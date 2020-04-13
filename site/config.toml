@@ -1,9 +1,30 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "惠州市蓝博旺科技有限公司"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[Contact]
+  name = "sq"
+  email = "24@qq.com"
+  address = "some place"
+
+[[menu.main]]
+    name = "产品"
+    url = "products"
+
+[[menu.main]]
+    name = "价值"
+    url = "values"
+
+[[menu.main]]
+    name = "动态"
+    url = "post"
+
+[[menu.main]]
+    name = "联系我们"
+    url = "contact"
