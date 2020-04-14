@@ -1,6 +1,6 @@
 ---
-title: 惠州市蓝博旺科技有限公司
-subtitle: Support sustainable farming while enjoying a cup
+title: ''
+subtitle: ''
 image: img/main.jpg
 blurb:
   heading: Why Kaldi?
