@@ -25,8 +25,9 @@
 			<div>
 				<h3 class="f4 b lh-title mb2 primary">联系方式</h3>
 				<ul class="mb3">
-					<li>联系人：</li>
-					<li>地址：</li>
+					{{ range .Site.Menus.contact.ByWeight }}
+						<li>{{ .Name }}</li>
+					{{end}}
 				</ul>
 				<!-- <ul class="mhn2">
 					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}

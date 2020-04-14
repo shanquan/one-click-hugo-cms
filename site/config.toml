@@ -8,11 +8,6 @@ title = "惠州市蓝博旺科技有限公司"
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
-[Contact]
-  name = "sq"
-  email = "24@qq.com"
-  address = "some place"
-
 [[menu.main]]
     name = "产品"
     url = "products"
@@ -28,3 +23,15 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [[menu.main]]
     name = "联系我们"
     url = "contact"
+
+[[menu.contact]]
+    name = "地址："
+    weight = 3
+
+[[menu.contact]]
+    name = "联系人：陈家林"
+    weight = 1
+
+[[menu.contact]]
+    name = "电话："
+    weight = 2
